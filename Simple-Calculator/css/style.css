@@ -1,0 +1,114 @@
+body {
+    background: linear-gradient(to top left, #33ccff 13%, #3c849c 89%);
+    height: 100%
+    animation gradientAnimation 3s infinite alternate;
+}
+
+@keyframes gradientAnimation {
+    0% {
+        background: linear-gradient(to top left, #33ccff 13%, #3c849c 89%);
+    }
+
+    50% {
+        background: linear-gradient(to bottom right, #33ccff 13%, #3c849c 89%);
+    }
+}
+form{
+    top:150px;
+}
+ .title{
+    margin-bottom: 10dip; 
+    text-align:center; 
+    width:200dip; 
+    color:green; 
+    border: solid blue 3dip;
+}
+
+.btn{  
+    cursor: pointer; 
+    font-family: "Arial", Times, serif;
+    left: 7px; 
+    font-size:25px;         
+    color: rgb(255, 9, 9); 
+    border: solid blue 3dip; 
+    font-weight: bold;
+    width:80%;
+    height:80%;
+    position: relative;
+    align-items: center;
+
+    border-radius: 5px;
+    padding: 5px 20px;
+    box-shadow: -1px -1px 1px #000;
+    background-image: linear-gradient(to bottom, #eee, #ddd);
+}
+
+.btn:hover{
+    background-image: linear-gradient(to top, #adf, #8bf);
+}
+.btn:active {
+    margin: 1px 1px 0;
+    box-shadow: -1px -1px 1px #000;
+}
+
+input[type="text"]{  
+    font-family: "Seven Segment", Times, serif;         
+    background-color:#E5E5FF;  
+    font-size:30px; 
+    color:red;         
+    border: solid black 2dip;          
+
+}
+.gap{
+    padding: 0;
+    height: 2px;
+    text-align: right;
+    font-family: 'arial';
+    font-weight: bold;
+    background-color: #4e4c4c;
+}
+p{
+    margin: 0;
+    padding: 0;
+    margin-right: 8px;
+    color: rgb(255, 255, 255);
+}
+tr td p{
+    padding: 0;
+}
+
+marquee{
+    color: #FFFFFF; 
+    font-family:Book Antiqua;
+}
+#calc{
+    width:290px;
+    height:300px;
+    border-radius: 30PX;
+    }
+.clear{
+    cursor: pointer; 
+    font-family: "Arial", Times, serif;
+    left: 7px; 
+    font-size:25px;         
+    color: red; 
+    border: solid blue 3dip; 
+    font-weight: bold;
+    width:80%;
+    height:80%;
+    position: relative;
+    align-items: center;
+
+    border-radius: 5px;
+    padding: 5px 20px;
+    box-shadow: -1px -1px 1px #000;
+    background-image: linear-gradient(to bottom, #eee, #ddd);
+}
+
+.clear:hover{
+    background-image: linear-gradient(to top, #adf, #8bf);
+}
+.clear:active {
+    margin: 1px 1px 0;
+    box-shadow: -1px -1px 1px #000;
+}

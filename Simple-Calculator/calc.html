@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head> 
+    <script src="javascript\my.js"></script>
+    <link rel="stylesheet" href="css\style.css">
+      <title>MY CALCULATOR</title>
+    </head>
+<body>
+        <H1>
+            <marquee bgcolor="#000080" behavior="alternate" > *** PROJECT USING HTML, CSS AND JAVASCRIPT***</marquee>
+        </H1>
+        <br><br><br><br><br><br>
+    <center>
+        <form name="calc">
+            <table id="calc" border=15> 
+                <tr>
+                    <td colspan="5">
+                        <input id="result" type="text" name="input1" placeholder="Enter Here..."/>
+                    </td>
+                </tr>          
+               
+                <tr class="gap">
+                    <td colspan="5">
+                     <p>Made by Bhola Yadav</p>
+                    </td>
+                </tr>   
+                <tr>
+                    <td><input onclick="dis('1')" class="btn" type="button"  value="1 " /> </td> 
+                    <td><input onclick="dis('2')" class="btn" type="button"  value="2 " /> </td> 
+                    <td><input onclick="dis('3')" class="btn" type="button"  value="3 " /> </td> 
+                    <td><input onclick="dis('/')" class="btn" type="button"  value="/ " /> </td> 
+                    <td><input onclick="clr()"  class="clear" type="button"  value="c "  /> </td>          
+                </tr> 
+                <tr> 
+                    <td><input onclick="dis('4')" class="btn" type="button"  value="4 " /> </td> 
+                    <td><input onclick="dis('5')" class="btn" type="button"  value="5 " /> </td> 
+                    <td><input onclick="dis('6')" class="btn" type="button"  value="6 " /> </td> 
+                    <td><input onclick="dis('-')" class="btn" type="button"  value="- " /> </td>
+                    <td><input onclick="sqrt()"   class="btn" type="button"  value="&radic; "  /> </td>
+                </tr> 
+                <tr> 
+                    <td><input onclick="dis('7')" class="btn" type="button"  value="7 " /> </td> 
+                    <td><input onclick="dis('8')" class="btn" type="button"  value="8 " /> </td> 
+                    <td><input onclick="dis('9')" class="btn" type="button"  value="9 " /> </td> 
+                    <td><input onclick="dis('+')" class="btn" type="button"  value="+ " /> </td>            
+                    <td><input onclick="pow()"   class="btn" type="button"  value="x&sup2" /> </td>         
+                </tr> 
+                <tr> 
+                    <td><input onclick="dis('.')" class="btn" type="button"  value=". " /> </td> 
+                    <td><input onclick="dis('0')" class="btn" type="button"  value="0 " /> </td>        
+                    <td><input onclick="solve()" class="btn" type="button"  value="= " /> </td> 
+                    <td><input onclick="dis('*')" class="btn" type="button"  value="* " /> </td>  
+                    <td><input onclick="pi()"   class="btn" type="button"  value="&#928; " /> </td>    
+                </tr> 
+            </table> 
+        </form> 
+        
+        <h2>By: Bhola Yadav</h2>
+    </center>
+    
+</body>
+</html>
