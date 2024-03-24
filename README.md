@@ -1,6 +1,7 @@
 # Simple-Calculator-using-html-css-javascript
  Simple Calculator: HTML, CSS, JS. Basic arithmetic functions. User-friendly interface. Real-time updates. Efficient integration of web technologies. Practical tool for users.
 
-#Preview
-👇👇Click To Prevew 👇👇
-- [PreView](https://github.com/Bhya23cse/Simple-Calculator-using-html-css-javascript/blob/main/Simple-Calculator/src/project%20preview.PNG)
+# Output
+
+
+![Out put](https://github.com/Bhya23cse/Simple-Calculator-using-html-css-javascript/assets/153095725/298d7c1b-8500-4e08-86d1-519763e85375)
